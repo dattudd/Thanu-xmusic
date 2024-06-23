@@ -4,7 +4,7 @@ asyncio
 beautifulsoup4
 dnspython
 ffmpeg-python
-gitpython-2.45.2
+gitpython
 hachoir
 heroku3
 httpx
