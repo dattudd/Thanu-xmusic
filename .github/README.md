@@ -3,7 +3,7 @@
 
 <h3><img  style="align-item" :"center" src="https://telegra.ph/file/1111bac828a1370a67346.jpg" width="80px" height="70%"><img 
 
-<h1 align ="center"><img src="https://readme-typing-svg.herokuapp.com?color=F778A1&width=350&lines=✨+🦋🇹‌𝗵𝗮𝗻𝘂+🇽‌+𝗺𝘂𝘀𝗶𝗰]🖤+🥀"></b></h1>
+<h1 align ="center"><img src="https://readme-typing-svg.herokuapp.com?color=F778A1&width=350&lines=✨+🦋🇹‌𝗵𝗮𝗻𝘂+🇽‌+𝗺𝘂𝘀𝗶𝗰🖤+🥀"></b></h1>
 
 ★ 𝙷𝙴𝚁𝙾𝙺𝚄 + 𝚅𝙿𝚂 ★
 </h2>
