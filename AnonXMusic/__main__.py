@@ -51,6 +51,7 @@ async def init():
     await Anony.decorators()
     LOGGER("AnonXMusic").info("╔═════ஜ۩۞۩ஜ════╗\n  ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 𝐂𝐡𝐢𝐧𝐧𝐚 ♨️\n╚═════ஜ۩۞۩ஜ════╝")
         
+    )
     await idle()
     await app.stop()
     await userbot.stop()
