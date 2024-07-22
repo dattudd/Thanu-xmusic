@@ -1,4 +1,5 @@
 import re
+import os
 from os import getenv
 from dotenv import load_dotenv
 from pyrogram import filters
@@ -48,12 +49,17 @@ PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 25))
 TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", 104857600))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
-# Get your Pyrogram v2 session from @StringFatherBot on Telegram
-STRING1 = getenv("STRING_SESSION"BQF4sk4ABif3Kh5-tOpM7UKlGC22A1VOF0yoQwEFX-qpd6FSGxubchPxpsOMsLxbXLojt1jyv_stEmh_Ffl1yS8egYCj65-XYxcvrXtH4DEfHiaa6T0fM6fMnvNhaHuVHBztTvKlpWWEBLiEBX-a3oEk-6CXhwH-Pm5YdvDlM0BZZKnSyIDGFfXYCkVRLfvChjDqEMUUho0mT74iM_I4MvCbGv0MNOgNWPIpkTQT_KRd5KvJnuGI2WZlRa7Qa3_dDFmv5SS23Xk9wurdLKBWTwK8KcE6itY27DyNUblm9PdAkCMK0y4SzXY1xpAxHt7uNGP8kJLKCBeZoe04v6oCxB6f1RRuigAAAAG1oK29AA")
-STRING2 = getenv("STRING_SESSION2")
-STRING3 = getenv("STRING_SESSION3")
-STRING4 = getenv("STRING_SESSION4")
-STRING5 = getenv("STRING_SESSION5")
+# Load session strings from environment variables
+STRING1 = os.getenv("STRING_SESSION1", "BQF4sk4ABif3Kh5-tOpM7UKlGC22A1VOF0yoQwEFX-qpd6FSGxubchPxpsOMsLxbXLojt1jyv_stEmh_Ffl1yS8egYCj65-XYxcvrXtH4DEfHiaa6T0fM6fMnvNhaHuVHBztTvKlpWWEBLiEBX-a3oEk-6CXhwH-Pm5YdvDlM0BZZKnSyIDGFfXYCkVRLfvChjDqEMUUho0mT74iM_I4MvCbGv0MNOgNWPIpkTQT_KRd5KvJnuGI2WZlRa7Qa3_dDFmv5SS23Xk9wurdLKBWTwK8KcE6itY27DyNUblm9PdAkCMK0y4SzXY1xpAxHt7uNGP8kJLKCBeZoe04v6oCxB6f1RRuigAAAAG1oK29AA")
+STRING2 = os.getenv("STRING_SESSION2")
+STRING3 = os.getenv("STRING_SESSION3")
+STRING4 = os.getenv("STRING_SESSION4")
+STRING5 = os.getenv("STRING_SESSION5")
+
+# Ensure the environment variables are loaded
+if not all([STRING1, STRING2, STRING3, STRING4, STRING5]):
+    raise ValueError("One or more STRING_SESSION environment variables are missing")
+
 
 BANNED_USERS = filters.user()
 adminlist = {}
