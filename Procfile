@@ -1,2 +1,2 @@
-gitrepository:https://github.com/dattudd/Thanu-xmusic/tree/master
+gitrepository:https://github.com/dattudd/Thanu-xmusic
 https://koyeb.com/e/run-command
